@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "project-toc"
+version = "0.1.0"
+description = ""
+authors = ["OctaneOolong <62565951+OctaneOolong@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nbconvert = "^7.16.4"
+pandas = "^2.2.3"
+frontmatter = "^3.0.8"
+pytest = "^8.3.3"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
